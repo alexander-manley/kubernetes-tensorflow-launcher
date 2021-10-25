@@ -13,8 +13,8 @@ spec:
         app: kubernetes-datascience-launcher
     spec:
       containers:
-      - image: tensorflow/tensorflow:latest
-        name: tensorflow/tensorflow:latest-jupyter
+      - image: tensorflow/tensorflow:latest-jupyter
+        name: tensorflow
 
 ---
 
